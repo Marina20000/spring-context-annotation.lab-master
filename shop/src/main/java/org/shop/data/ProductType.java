@@ -1,14 +1,12 @@
 package org.shop.data;
 
-import org.shop.Profiler.Profiling;
-
 /**
  * Entity of <code>ProductType</code> class represents the type of product.
  * 
  * @author Dzmitry_Naskou
  * @see Product
  */
-@Profiling
+
 public class ProductType implements Entity {
 
     private static final long serialVersionUID = 2002948785424256879L;

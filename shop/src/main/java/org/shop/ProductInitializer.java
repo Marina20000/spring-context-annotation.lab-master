@@ -1,17 +1,12 @@
 package org.shop;
 
 import org.shop.api.ProductService;
-
 import org.shop.common.Products;
 import org.shop.data.Product;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 
 /**
  * The Product Initializer util class.
  */
-@Component
 public final class ProductInitializer {
     
     /** The product service. */
@@ -22,8 +17,7 @@ public final class ProductInitializer {
      *
      * @param productService the product service
      */
-    @Autowired
-    public ProductInitializer(@Qualifier("productService") ProductService productService) {
+    public ProductInitializer(ProductService productService) {
         super();
         this.productService = productService;
     }

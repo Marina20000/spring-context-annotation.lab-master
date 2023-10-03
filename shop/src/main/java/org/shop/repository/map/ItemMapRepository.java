@@ -1,12 +1,11 @@
 package org.shop.repository.map;
 
-import java.util.List;
-
 import org.apache.commons.collections.Predicate;
-import org.shop.Profiler.Profiling;
 import org.shop.data.Item;
 import org.shop.repository.ItemRepository;
-@Profiling
+
+import java.util.List;
+
 public class ItemMapRepository extends AbstractMapRepository<Item> implements ItemRepository {
 
     /* (non-Javadoc)

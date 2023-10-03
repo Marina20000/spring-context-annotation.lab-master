@@ -1,17 +1,15 @@
 package org.shop.api.impl;
 
-import java.util.List;
-
 import org.apache.log4j.Logger;
-import org.shop.Profiler.Profiling;
 import org.shop.api.UserService;
 import org.shop.data.User;
 import org.shop.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-@Profiling
+
+import java.util.List;
+
 public class UserServiceImpl implements UserService {
     private static final Logger logger = Logger.getLogger(UserService.class);
-    @Autowired
+
     private UserRepository repository;
 
     /* (non-Javadoc)

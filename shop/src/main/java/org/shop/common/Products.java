@@ -1,8 +1,5 @@
 package org.shop.common;
 
-import org.shop.Profiler.Profiling;
-
-@Profiling
 public final class Products {
 
     public static final String SAMSUNG_GALAXY_TAB = "Samsung Galaxy Tab";

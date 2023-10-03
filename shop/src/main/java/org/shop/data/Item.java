@@ -1,14 +1,12 @@
 package org.shop.data;
 
-import org.shop.Profiler.Profiling;
-
 /**
  * Entity of <code>Item</code> class represents the order item.
  * 
  * @author Dzmitry_Naskou
  * @see Order
  */
-@Profiling
+
 public class Item implements Entity {
 
     private static final long serialVersionUID = 2715339873182595898L;

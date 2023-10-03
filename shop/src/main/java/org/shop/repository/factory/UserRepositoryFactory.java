@@ -1,13 +1,12 @@
 package org.shop.repository.factory;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.apache.log4j.Logger;
-import org.shop.Profiler.Profiling;
 import org.shop.data.User;
 import org.shop.repository.UserRepository;
 import org.shop.repository.map.AbstractMapRepository;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A factory for creating UserRepository objects.
@@ -17,7 +16,7 @@ import org.shop.repository.map.AbstractMapRepository;
  * @see UserRepository
  * @see User
  */
-@Profiling
+
 public final class UserRepositoryFactory {
     private static final Logger logger = Logger.getLogger(UserRepository.class);
     /**

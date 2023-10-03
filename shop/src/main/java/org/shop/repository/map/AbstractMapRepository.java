@@ -1,14 +1,13 @@
 package org.shop.repository.map;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.apache.log4j.Logger;
-import org.shop.Profiler.Profiling;
 import org.shop.data.Entity;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * The Abstract Map Based Repository.
@@ -18,7 +17,7 @@ import org.shop.data.Entity;
  * 
  * @see Map
  */
-@Profiling
+
 public class AbstractMapRepository<T extends Entity> {
     private static final Logger logger = Logger.getLogger(AbstractMapRepository.class);
     

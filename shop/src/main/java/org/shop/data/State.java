@@ -1,5 +1,4 @@
 package org.shop.data;
-import org.shop.Profiler.Profiling;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,7 +9,7 @@ import java.util.List;
  * 
  * @author Dzmitry_Naskou
  */
-@Profiling
+
 public final class State implements Entity {
 
     private static final long serialVersionUID = -4707978480914424319L;

@@ -2,7 +2,6 @@ package org.shop;
 
 import org.shop.api.UserService;
 import org.shop.data.User;
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * The User Initializer util class.
@@ -10,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class UserInitializer {
 
     /** The user service. */
-    @Autowired
     private UserService userService;
     /**
      * Instantiates a new user initializer.

@@ -1,7 +1,5 @@
 package org.shop.data;
 
-import org.shop.Profiler.Profiling;
-
 import java.util.Date;
 
 /**
@@ -10,7 +8,7 @@ import java.util.Date;
  * @author Dzmitry_Naskou
  * @see Item
  */
-@Profiling
+
 public class Order implements Entity {
 
     private static final long serialVersionUID = -1964561045551043905L;

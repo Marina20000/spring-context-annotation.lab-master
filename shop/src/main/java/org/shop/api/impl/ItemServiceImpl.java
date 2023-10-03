@@ -1,17 +1,15 @@
 package org.shop.api.impl;
 
-import java.util.List;
-
-import org.shop.Profiler.Profiling;
 import org.shop.api.ItemService;
 import org.shop.data.Item;
 import org.shop.repository.ItemRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-@Profiling
+
+import java.util.List;
+
 public class ItemServiceImpl implements ItemService {
     
     /** The item repository. */
-    @Autowired
+
     private final ItemRepository repository;
 
     /**

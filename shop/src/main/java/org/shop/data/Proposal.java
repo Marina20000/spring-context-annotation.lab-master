@@ -1,7 +1,5 @@
 package org.shop.data;
 
-import org.shop.Profiler.Profiling;
-
 /**
  * Entity of <code>Proposal</code> class represents the proposal object.
  * 
@@ -9,7 +7,7 @@ import org.shop.Profiler.Profiling;
  * @see Seller
  * @see Product
  */
-@Profiling
+
 public class Proposal implements Entity {
 
     private static final long serialVersionUID = 2419499985539985110L;

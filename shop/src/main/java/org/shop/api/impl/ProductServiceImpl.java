@@ -1,13 +1,12 @@
 package org.shop.api.impl;
 
-import java.util.List;
-
 import org.apache.log4j.Logger;
-import org.shop.Profiler.Profiling;
 import org.shop.api.ProductService;
 import org.shop.data.Product;
 import org.shop.repository.ProductRepository;
-@Profiling
+
+import java.util.List;
+
 public class ProductServiceImpl implements ProductService {
     private static final Logger logger = Logger.getLogger(ProductService.class);
 

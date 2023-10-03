@@ -1,12 +1,11 @@
 package org.shop.repository.map;
 
+import org.shop.data.Seller;
+import org.shop.repository.SellerRepository;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import org.shop.Profiler.Profiling;
-import org.shop.data.Seller;
-import org.shop.repository.SellerRepository;
-@Profiling
 public final class SellerMapRepository extends AbstractMapRepository<Seller> implements SellerRepository {
     
     /* (non-Javadoc)

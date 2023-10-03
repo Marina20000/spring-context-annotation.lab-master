@@ -1,14 +1,13 @@
 package org.shop.repository.map;
 
+import org.apache.commons.collections.Predicate;
+import org.apache.log4j.Logger;
+import org.shop.data.Product;
+import org.shop.repository.ProductRepository;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.collections.Predicate;
-import org.apache.log4j.Logger;
-import org.shop.Profiler.Profiling;
-import org.shop.data.Product;
-import org.shop.repository.ProductRepository;
-@Profiling
 public class ProductMapRepository extends AbstractMapRepository<Product> implements ProductRepository {
     private static final Logger logger = Logger.getLogger(ProductRepository.class);
     @Override

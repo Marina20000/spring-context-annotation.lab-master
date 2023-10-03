@@ -1,10 +1,5 @@
 package org.shop.api.impl;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.shop.Profiler.Profiling;
 import org.shop.api.ItemService;
 import org.shop.api.OrderService;
 import org.shop.data.Item;
@@ -12,14 +7,17 @@ import org.shop.data.Order;
 import org.shop.data.Proposal;
 import org.shop.data.User;
 import org.shop.repository.OrderRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 
-@Profiling
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+
 public class OrderServiceImpl implements OrderService {
 
-    @Autowired
+
     private OrderRepository orderRepository;
-    @Autowired
+
     private ItemService itemService;
 
     @Override

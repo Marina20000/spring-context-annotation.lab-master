@@ -1,14 +1,12 @@
 package org.shop.data;
 
 
-import org.shop.Profiler.Profiling;
-
 /**
  * Entity of <code>User</code> class represents the user object.
  * 
  * @author Dzmitry_Naskou
  */
-@Profiling
+
 public class User implements Entity {
 
     private static final long serialVersionUID = 1199556401478769420L;
